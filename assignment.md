@@ -11,15 +11,16 @@ The Kotlin assignment has three components:
 ---
 ### Question 1 - what is the type of this Variable `var age:int = 19`:
 >Answe 1: 
+> integer
 ### Question 2 - What is the output of this code:
 ###  `var age:int = 19`
      if(age < 18 ) {
     print("you are not adult") 
     }else {
     print("you are adult")
-    }
+    
 >Answe 2:
-
+ you are adult
 
 ## Part II - writing code.
 ---
