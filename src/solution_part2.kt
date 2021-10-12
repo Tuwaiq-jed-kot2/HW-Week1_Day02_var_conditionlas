@@ -1,3 +1,14 @@
 fun main(){
- print("I love Kotlin!!!!")
+
+ val age:Int = 19
+
+ if(age < 18 ) {
+  print("you are not adult")
+ }else {
+  print("you are adult")
+ }
+
+
 }
+
+
