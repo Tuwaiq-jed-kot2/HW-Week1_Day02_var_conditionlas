@@ -25,4 +25,20 @@ fun main(){
     }else if (playerTwo <= 50){
         println("$playerTwoName's health is awful")
     }
+    // حل ثالث
+    println("Enter your Name:")
+    val playerName = readLine()
+    println("Enter your health point:")
+    val playerHealthPoint = readLine()
+
+    if (playerHealthPoint != null) {
+        if(playerHealthPoint > 50.toString()){
+            println("$playerName's health is fine")
+        }else if (playerHealthPoint != null) {
+            if(playerHealthPoint <= 50.toString()){
+                println("$playerName's health is awful")
+            }
+        }
+    }
+
 }
