@@ -1,4 +1,5 @@
 fun main(){
+ val y = listOf<String>()
  val firstPlayerHealthPoints = 79
  val secondPlayerHealthPoints = 45
 
@@ -6,8 +7,8 @@ fun main(){
  else if (firstPlayerHealthPoints < 50) println("the player's health is awful")
 
  when(secondPlayerHealthPoints){
-  in 90..100 -> println("the player's health is fine")
-  in 0..50 -> println("the player's health is awful")
+  in 50..89 -> println("the player's health is fine")
+  in 0..49 -> println("the player's health is awful")
   else -> println("Score not valid")
  }
 }
