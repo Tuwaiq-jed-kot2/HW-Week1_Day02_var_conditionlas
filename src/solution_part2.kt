@@ -1,21 +1,19 @@
-fun main(){
- val Player1HealthPoints = 90
- val Player2HealthPoints = 40
+fun main() {
+    val Player1HealthPoints = 90
+    val Player2HealthPoints = 40
 
- if(Player1HealthPoints<=90){
-    if(Player1HealthPoints<50) {
-     println("the player's 1 health is awful")
+/*------------------------------------------------------------------------------*/
+    when (Player1HealthPoints) {
+        in 90..100 -> println("the player's 1 health is perfect")
+        in 50..89 -> println("the player's 1 health is fine")
+        in 0..49 -> println("the player's 1 health is awful")
+        else -> println("Score not valid")
     }
-    else {
-     println("the player's 1 health is fine")
+/*------------------------------------------------------------------------------*/
+    when (Player2HealthPoints) {
+        in 90..100 -> println("the player's 2 health is perfect")
+        in 50..89 -> println("the player's 2 health is fine")
+        in 0..49 -> println("the player's 2 health is awful")
+        else -> println("wrong input")
     }
- }
- if(Player2HealthPoints<=90) {
-  if (Player2HealthPoints<50) {
-      println("the player's 2 health is awful")
-  }
-    else{
-    println("the player's 2 health is fine")
-   }
- }
 }
